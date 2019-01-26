@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>My first Website</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/favicon.png">
+
+        <!---------Team CSS files---------->
+        
+          <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css"> 
+          <link href="css/owl.theme.default.min.css" rel="stylesheet" type="text/css"> 
+        
+        
+        <!---------Magnific popup CSS files---------->
+        
+        <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+        
+        
+    
+        
+        
+        <!---------FONT AWESOME CDN FILES---------->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!---------FONT AWESOME CDN FILES ENDS---------->
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        
+        
+        <!----------- Responsive CSS File ----------->
+        <link rel="stylesheet" href="css/responsive.css" type="text/css">
+        
+        
+        <!-------- Animet CSS File ------------->
+
+        <link rel="stylesheet" href="css/animate.css" type="text/css">
+        
+        
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      
+       <!-------------Owl Carousel Js file------------->
+         <script src="js/owl.carousel.min.js" type="text/javascript"></script>  
+      
+      
+       <!---------Magnific popup JS files---------->
+        <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+       
+       
+       
+        <!-- Latest compiled JavaScript -->
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        
+        
+        
+        
+        
+        <!-- Always get the latest version -->
+            <!-- Not recommended for production sites! -->
+            <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+            <!-- Get minor updates and patch fixes within a major version -->
+            <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
+
+            <!-- Get patch fixes within a minor version -->
+            <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+            <!-- Get a specific version -->
+            <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+
+
+        <!-- Start of Async Drift Code -->
+<script>
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('566su4s4u7uk');
+</script>
+<!-- End of Async Drift Code -->
+
+
+
+        
+        
+        
+        
+</head>
+<body>
+    
+    
+          <!--------Navigation starts-------->
+        <nav class="navbar  navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                   <!---------Responsive button------------>
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>                       
+                   </button>
+                    <a href="" class="navbar-brand animated bounceInDown"><img src="img/logo-01.png"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navi"> 
+                 <!---------Navigation menus------------>
+                <ul class="nav navbar-nav navbar-right animated bounceInDown ">
+                    <li><a href="#slider" class="smooth-scroll">Home</a></li>
+                    <li><a href="#services" class="smooth-scroll">Our Services</a></li>
+                    <li><a href="#works" class="smooth-scroll">Works</a></li>
+                    <li><a href="#team" class="smooth-scroll">Team</a></li>
+                    <li><a href="#testimonial" class="smooth-scroll">About us</a></li>
+                    <li><a href="#latest" class="smooth-scroll">Blog</a></li>                    
+                    <li><a href="#stats" class="smooth-scroll">Stats</a></li>                    
+                    <li><a href="#contact_area" class="smooth-scroll">Contact</a></li>
+                    <li><a href="#location" class="location smooth-scroll">Our Location</a></li>
+                    
+                </ul>
+                 <!---------Navigation menus end------------>
+                </div>          
+            </div>         
+            </nav>
+         <!--------Navigation Ends-------->
+        
+          <!---------------Slider section starts------------->
+          <section class="slider text-center" id="slider">              
+              <div class="slider-overlay">
+                  <div class="slider-content">
+                      <div class="icons">
+                          <i class="fa fa-apple"></i>
+                          <i class="fa fa-android"></i>
+                          <i class="fa fa-windows"></i>
+                      </div>
+                      <br>
+                      <div class="text"></div>
+                      <div class="cta-div">
+                          <a href="#contact_area" class="btn1">CONTACT US!</a>
+                          <a href="#latest" class="btn2"> LEARN TODAY !</a>
+                      </div>
+                      <br><br>
+                      <div class="social-networks">
+                          <a href="" class="fa fa-facebook"></a>
+                          <a href="" class="fa fa-twitter"></a>
+                          <a href="" class="fa fa-windows"></a>
+                          <a href="" class="fa fa-reddit"></a>
+                          <a href="" class="fa fa-linkedin"></a>
+                          <a href="" class="fa fa-cog"></a>
+                      </div>                      
+                  </div>                  
+              </div>       
+          </section>
+         
+         <!---------------Slider section ends-------------> 
+         
+           <!---------------Services starts-------------> 
+           
+            <br><br>
+             <selection class="service-area" id="services">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-xs-12">
+                             <div class="section-title text-center wow animated zoomIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                                 <h2><b>SERVICES</b></h2>
+                                 <p>
+                                     You can ask the qustion regarding the issues we will <br>
+                                     solve that togather for sure
+                                 </p>
+                             </div>
+                         </div>
+                         <br>
+                         <br>
+                          
+                            
+                            
+                            <div class="row">
+                            
+                                
+                                 
+                             <div class="col-md-4 col-sm-6 col-xs-12">
+                                 <div class="service-wrap text-center wow bounceInLeft" data-wow-duration="0.8s" data-wow-delay="0.8s">
+                                     <div class="service-icon">
+                                         <i class="fa fa-leaf"></i>
+                                     </div>
+                                     <h3>Development</h3>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                 </div>
+                             </div>
+                                
+                            
+                                
+                                        
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                 <div class="service-wrap text-center wow bounceInUp"  data-wow-duration="0.8s" data-wow-delay="0.8s">
+                                     <div class="service-icon">
+                                         <i class="fa fa-laptop"></i>
+                                     </div>
+                                     <h3>Support</h3>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                 </div>
+                             </div>
+                                 
+                                
+                                
+                                
+                                
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                 <div class="service-wrap text-center wow bounceInRight"  data-wow-duration="0.8s" data-wow-delay="0.8s">
+                                     <div class="service-icon">
+                                         <i class="fa fa-heart"></i>
+                                     </div>
+                                     <h3>Marketing</h3>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                 </div>
+                             </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                            
+                                
+                                    
+                                        
+                                                
+                             <div class="service-wrap text-center wow bounceInLeft"  data-wow-duration="0.8s" data-wow-delay="0.8s">
+                                     <div class="service-icon">
+                                         <i class="fa fa-cogs"></i>
+                                     </div>
+                                     <h3>Insurence</h3>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                 </div>
+                             </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                
+                                
+                                
+                                
+                             <div class="service-wrap text-center wow bounceInUp"  data-wow-duration="0.8s" data-wow-delay="0.8s">
+                                     <div class="service-icon">
+                                         <i class="fa fa-diamond"></i>
+                                     </div>
+                                     <h3>Design</h3>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                 </div>
+                             </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                 <div class="service-wrap text-center wow bounceInRight"  data-wow-duration="0.8s" data-wow-delay="0.8s">
+                                     <div class="service-icon">
+                                         <i class="fa fa-cog"></i>
+                                     </div>
+                                     <h3>Web Design</h3>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 
+                 
+             </selection>
+             
+       
+       <!--------Works Markups-------->
+       
+       <section class="work wow bounceInUp"  data-wow-duration=".5s" data-wow-delay=".5s" id="works"><br><br><br><br><br>
+           <div class="container-fluid">
+               <div class="row no-gutters">
+                   <div class="col-md-3 col-sm-3 col-xs-3">
+                       <div class="img-wrapper wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="1s">
+                           <a href="img/1.png" title="My own Pamphlet. Mad Jack Graphic Designer.">
+                               <img src="img/1.png" class="img-responsive">
+                           </a>
+                       </div>
+                       
+                   </div>
+                   <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="img-wrapper wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="1s">
+                           <a href="img/2.png" title="MJ Logo Design.">
+                               <img src="img/2.png" class="img-responsive">
+                           </a>
+                       </div>
+                   </div>
+                   
+                   <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="img-wrapper wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="1s">
+                           <a href="img/3.png" title="Pamphlet of Viral Music">
+                               <img src="img/3.png" class="img-responsive">
+                           </a>
+                       </div>
+                   </div>
+                   
+                   <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="img-wrapper wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="1s">
+                           <a href="img/4.jpg" title="Free Design / Tattoo.">
+                               <img src="img/4.jpg" class="img-responsive">
+                           </a>
+                       </div>
+                   </div>
+                      
+                      
+                      <div class="col-md-3 col-sm-3 col-xs-3">
+                       <div class="img-wrapper wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="1s">
+                           <a href="img/5.jpg" title="Logo of Building Service Company.">
+                               <img src="img/5.jpg" class="img-responsive">
+                           </a>
+                       </div>
+                       
+                   </div>
+                   <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="img-wrapper wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="1s">
+                           <a href="img/6.jpg" title="Book Cover Design.">
+                               <img src="img/6.jpg" class="img-responsive">
+                           </a>
+                       </div>
+                   </div>
+                   
+                   <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="img-wrapper wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="1s">
+                           <a href="img/7.jpg" title="Free Drawing / Cartoon.">
+                               <img src="img/7.jpg" class="img-responsive">
+                           </a>
+                       </div>
+                   </div>
+                   
+                   <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="img-wrapper wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="1s">
+                           <a href="img/8.jpg" title="Relative logo Design.">
+                               <img src="img/8.jpg" class="img-responsive">
+                           </a>
+                       </div>
+                   </div>
+               
+               </div>
+           </div>
+    
+       </section>
+       
+     <!--------Works Markup ends------>
+    
+     
+       <!--------Team Markup------>
+       
+       
+       <br><br><br>
+       <section class="teams" id="team">
+           <div class="container text-center wow zoomIn" data-wow-duration="1s" data-wow-delay="1s">
+               <h2><b>MEMBERS</b></h2>
+               <p>You can ask the question regarding the issues we will <br>
+               solve that together for sure
+               </p>
+           </div>
+           <br>
+           <div class="container wow bounceInLeft" data-wow-duration="1.8s" data-wow-delay="1.8s">
+               <div class="row">
+                   <div class="col-md-12">
+                       <div id="team-members" class="owl-carousel owl-theme">
+                           <div class="team-member">
+                               <img src="img/team-1.jpg" alt="" class="img-responsive">
+                               <div class="team-member-info  text-center">
+                                   <h4 class="team-member-name">Ravi Bhagyoday</h4>
+                                   <h4 class="team-member-designation">CEO & Founder</h4>
+                                   <ul class="social-list">
+                                       <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>                                   
+                                       <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                        
+                                        <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+                                   </ul>
+                               </div>
+                           </div>
+                           
+                           
+                           <div class="team-member">
+                               <img src="img/team-2.jpg" alt="" class="img-responsive">
+                               <div class="team-member-info  text-center">
+                                   <h4 class="team-member-name">Dhrumil Bhojani</h4>
+                                   <h4 class="team-member-designation">co-founder</h4>
+                                   <ul class="social-list">
+                                       <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>                                   
+                                       <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                        
+                                        <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+                                   </ul>
+                               </div>
+                           </div>
+                           
+                           <div class="team-member">
+                               <img src="img/team-3.jpg" alt="" class="img-responsive">
+                               <div class="team-member-info  text-center">
+                                   <h4 class="team-member-name">Harsh Shah</h4>
+                                   <h4 class="team-member-designation">Sr Developer</h4>
+                                   <ul class="social-list">
+                                       <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>                                   
+                                       <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                        
+                                        <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+                                   </ul>
+                               </div>
+                           </div>
+                           
+                           <div class="team-member">
+                               <img src="img/team-4.jpg" alt="" class="img-responsive">
+                               <div class="team-member-info  text-center">
+                                   <h4 class="team-member-name">Chintan Kamani</h4>
+                                   <h4 class="team-member-designation">Sr Designer</h4>
+                                   <ul class="social-list">
+                                       <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>                                   
+                                       <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                        
+                                        <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+                                   </ul>
+                               </div>
+                           </div>
+                           
+                           
+                           <div class="team-member">
+                               <img src="img/team-5.jpg" alt="" class="img-responsive">
+                               <div class="team-member-info  text-center">
+                                   <h4 class="team-member-name">Vivek Parmar</h4>
+                                   <h4 class="team-member-designation">Investor</h4>
+                                   <ul class="social-list">
+                                       <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>                                   
+                                       <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                        
+                                        <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+                                   </ul>
+                               </div>
+                           </div>
+                           
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+     
+    
+       <!--------------------Team Markup Ends-------------------->     
+     <!---------------------Review Markup Starts------------------->
+        
+         <br><br>
+         <section class="testimonials" id="testimonial">             
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-12 text-center wow fadeInDownBig">
+                         <br><br>
+                         <br><br>
+                         <h2><b>REVIEWS</b></h2>
+                         <div class="sub-heading">
+                             <div class="border-bottom"></div>
+                         </div>                      
+                     </div>
+                 </div>
+                 <br><br>
+                 <div class="row wow fadeInDownBig">
+                     <div class="col-sm-12">
+                         <div id="carousel-testimonials" class="carousel slide" data-ride="carousel"><br>
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-testimonials" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-testimonials" data-slide-to="1" ></li>
+                                <li data-target="#carousel-testimonials" data-slide-to="2" ></li>
+                             
+                            </ol> 
+                            
+                            <div class="carousel-inner ">
+                                <div class="item active text-center">
+                                    <img src="img/client-1.jpg" class="center-block">
+                                    <h2>Anmol Hariyani</h2>
+                                    
+                                    <p>                                        
+                                        Great Work!<br>I wish I could hire him.
+                                    </p>
+                                </div> 
+                                   
+                                   <div class="item text-center">
+                                    <img src="img/client-2.jpg" class="center-block">
+                                    <h2>Sejpalsinh Jadeja</h2>
+                                    <p>                                        
+                                        Could not make it more Awesome. <br>Exceed my expectation.
+                                    </p>
+                                </div>
+                                   
+                                     <div class="item text-center">
+                                    <img src="img/client-3.jpg" class="center-block">
+                                    <h2>Urvi Bhagyoday</h2>
+                                    <p>                                        
+                                         Wonderful experiance working with them<br> would surly give them my next project...                                    </p>
+                                </div>
+                                
+                            </div>
+               <br><br>
+                         </div>
+                
+                     </div>
+            
+                 </div>
+    
+             </div>
+     
+         </section>
+
+    
+ <!-----------------Review Markup Ends---------------------->
+ <!-----------------FAQ Markups Starts---------------------->
+        <br><br><br>
+         <section class="faq">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-12 text-center wow zoomIn" data-wow-duration="1s" data-wow-delay="1s">
+                         <h2><b>GENERAL FAQs</b></h2>
+                         <div class="sub-heading">
+                             <p>
+                                 You can ask the qustions regurding the issues.
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <br><br><br>
+             
+             
+             <div class="container wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s">
+                 <div class="row">
+                      <div class="col-md-7">
+                        <div class="panel-group" id="accordian">
+                            <div class="panel">
+                              <div class="panel-heading" id="headingOne">
+                                  <h4 class="panel-title">
+                                      <a href="#collapseOne" data-toggle="collapse" data-parent="#accordian">Have you any questions ?</a>
+                                  </h4>
+                                 </div>  
+                                <div id="collapseOne" class="panel-collapse collapse in" aria-labelledby="headingone">
+                                    <div class="panel-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros.
+                                        </p>                                        
+                                    </div>                                    
+                                </div>                               
+                            </div>                           
+                                                         
+                            <div class="panel panel-default">
+                              <div class="panel-heading" id="headingTwo">
+                                  <h4 class="panel-title">
+                                      <a href="#collapseTwo" class="collapsed" data-toggle="collapse" data-parent="#accordian">Are you getting it exactly ?</a>
+                                  </h4>
+                                 </div>  
+                                <div id="collapseTwo" class="panel-collapse collapse" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros.
+                                        </p>                                        
+                                    </div>                                    
+                                </div>
+                                                            
+                            </div>
+                             
+                             
+                             <div class="panel panel-default">
+                              <div class="panel-heading" id="headingThree">
+                                  <h4 class="panel-title">
+                                      <a href="#collapseThree" class="collapsed" data-toggle="collapse" data-parent="#accordian">Is it clearly explained ?</a>
+                                  </h4>
+                                 </div>  
+                                <div id="collapseThree" class="panel-collapse collapse" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros.
+                                        </p>                                        
+                                    </div>                                    
+                                </div>
+                                                            
+                            </div>
+                          
+                             <div class="panel panel-default">
+                              <div class="panel-heading" id="headingfour">
+                                  <h4 class="panel-title">
+                                      <a href="#collapsefour" class="collapsed" data-toggle="collapse" data-parent="#accordian"> Course is deserving anything ?</a>
+                                  </h4>
+                                 </div>  
+                                <div id="collapsefour" class="panel-collapse collapse" aria-labelledby="headingfour">
+                                    <div class="panel-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, landit posuere tortor aliquam vitae. Curabitur molestie eros.
+                                        </p>                                        
+                                    </div>                                    
+                                </div>
+                                                            
+                            </div>                     
+                                            
+                    </div>
+                    </div>
+                   
+                   
+                   <div class="freeimage wow bounceInRight" data-wow-duration="1.6s" data-wow-delay="1.6s">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img src="img/3-front.png">
+                        </div>
+                    
+                    </div>
+                    
+                  
+                </div>
+            </div>
+      
+        </section>
+        
+        <!------------ FAQ Markups End------------->  
+         
+  <!---------------------Blog  Starts------------------->
+    
+        <section class="latest-news-area" id="latest">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="section-title text-center wow zoomIn" data-wow-duration="0.2s" data-wow-delay="0.5s">
+                            <h2><b>RECENT BLOGS</b></h2>
+                            <div class="sub-heading">
+                                You can ask the qustions reguarding the issues we will <br> solve that togather for sure
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <br><br>
+                
+                <div class="row">
+                    <div class="news-active">
+                        <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay="0.4s">
+                            <div class="latest-news-wrap">
+                                <div class="news-img">
+                                    <img src="img/blog-1.jpg" class="img-responsive" alt="">
+                                    <div class="deat">
+                                        <span>4</span>
+                                        <span>Jan</span>     
+                                    </div>
+                                </div>
+                                <div class="news-content">
+                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-linkedin"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-whatsapp"></i>
+                                    <h4><b>FONT PICKS FOR POSTERS
+                                     </b></h4>
+                                    
+                                    <p>
+                                        Poster design can be tough. A successful poster has to first grab a viewer's attention and then hold it long enough to convey a message. To achieve that, you need the right imagery, composition, and typeface—and what's "right" depends on a lot of variables...
+                                    </p>
+                                    <br>
+                                    <a href="https://create.adobe.com/2019/1/3/font_picks_for_poste.html" target="_blank"> Read more..</a>
+                                </div> 
+                            </div>
+                        </div>
+                           
+                           
+                           <div class="col-md-4 col-sm-6 col-xs-12 wow slideInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
+                            <div class="latest-news-wrap">
+                                <div class="news-img">
+                                    <img src="img/blog-2.jpg" class="img-responsive" alt="">
+                                    <div class="deat">
+                                        <span>30</span>
+                                        <span>Oct</span>     
+                                    </div>
+                                </div>
+                                <div class="news-content">
+                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-linkedin"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-whatsapp"></i>
+                                    <h4><b>AI AND THE ARTIST’S PROCESS
+                                     </b></h4>
+                                    
+                                    <p>
+                                        In 2013, Adobe began inviting artists from different corners of the creative world to reimagine the company’s logo in their own style. In the years since, dozens of artists have joined the remix program to offer their own take on the iconic “A”. There have ...
+                                    </p>
+                                    <br>
+                                    <a href="https://create.adobe.com/2018/10/30/ai_and_the_artist_s_.html" target="_blank">Read more..</a>
+                                </div> 
+                            </div>
+                        </div>
+                           
+                           
+                           
+                           <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration="0.6s" data-wow-delay="0.6s">
+                            <div class="latest-news-wrap">
+                                <div class="news-img">
+                                    <img src="img/blog-3.jpg" class="img-responsive" alt="">
+                                    <div class="deat">
+                                        <span>18</span>
+                                        <span>Dec</span>     
+                                    </div>
+                                </div>
+                                <div class="news-content">
+                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-linkedin"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-whatsapp"></i>
+                                    
+                                    <h4><b>MINIMAL LINES, MAXIMUM IMPACT</b></h4>
+                                    
+                                    <p>
+                                        The TRÜF studio in Santa Monica, California, has crafted brands for clients ranging from Adidas to a film director. However, the TRÜF work that first grabbed Create's attention was a series of minimal line drawings of animals the studio posted on Behance...
+                                    </p>
+                                    <br>
+                                    <a href="https://create.adobe.com/2018/12/18/minimal_lines_maximu.html" target="_blank">Read more..</a>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+      
+            
+   <!---------------------Blog  Ends------------------->
+   <!---------------------Counter Starts------------------->
+           
+             
+        <section class="stat" id="stats">
+            <div class="content-box">
+                <br><br>
+                <div class="container">
+                    <div class="row text-center">
+                        
+                           <br><br>
+                           
+                        <div class="col-md-3 wow fadeInLeft" data-wow-duration="0.3s" data-wow-delay="0.3s">
+                            <div class="stat-items">
+                                <i class="fa fa-tv"></i>
+                                <h2><span class="counter text-center"> 4200</span> <span>+</span></h2>
+                                <p>VIEWS</p>
+                            </div>
+                        </div>
+                           
+                           
+                           
+                           
+                           
+                        <div class="col-md-3 wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.6s">
+                            <div class="stat-items">
+                                <i class="fa fa-android"></i>
+                                <h2><span class="counter text-center"> 2300</span> <span>+</span></h2>
+                                <p>ANDROID USER</p>
+                            </div>
+                        </div>
+                           
+                           
+                           
+                        <div class="col-md-3 wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay="0.9s">
+                            <div class="stat-items">
+                                <i class="fa fa-globe"></i>
+                                <h2><span class="counter text-center"> 3900</span> <span>+</span></h2>
+                                <p>INTERNATIONALY</p>
+                            </div>
+                        </div>
+                           
+                           
+                           
+                           
+                           
+                        <div class="col-md-3 wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1.2s">
+                            <div class="stat-items">
+                                <i class="fa fa-windows"></i>
+                                <h2><span class="counter text-center"> 3600</span> <span>+</span></h2>
+                                <p>WINDOWS SUPPORT</p>
+                            </div>
+                        </div>
+                    
+                    
+                    
+                    
+                    </div>
+                    <br><br>
+                </div>
+            </div>
+        </section>  
+            
+    <!------------Contact Markup Starts-------------> 
+       
+       <section class="contact-area" id="contact_area">
+           <div class="container-fluid">
+               <div class="row">
+                   <div class="col-md-6 col-md-offset-3 text-center">
+                       <div class="section-heading wow zoomIn" data-wow-duration=".2s" data-wow-delay=".2s">
+                          <br><br><br>
+                           <h2 class="section-title"><b style="color: white;">CONTACT</b></h2>
+                           <div class="border-bottom-now"></div>                           
+                       </div>                       
+                   </div>
+                 </div>
+                 <div class="row">                     
+                     <div class="contact-infos">
+                         <div class="col-md-4 text-center">
+                             <div class="contact-item wow fadeInLeft" data-wow-duration=".4s" data-wow-delay=".4s">
+                                 <span class="contact-icon"><i class="fa fa-map-marker"></i></span>
+                                 <p class="contact-detail">
+                                     71, Satyanarayan Park-2, Opp. Stearling Hospital, <br>Nanavati Chowk, 150ft. Ring Road<br>
+                                      Rajkot, Gujarat                                     
+                                 </p>
+                             </div>                             
+                         </div>
+                            
+                              <div class="col-md-4 text-center">
+                             <div class="contact-item wow fadeInLeft" data-wow-duration=".7s" data-wow-delay=".7s">
+                                 <span class="contact-icon"><i class="fa fa-envelope"></i></span>
+                                 <p class="contact-detail">
+                                     mad.jack@jack.com <br>
+                                     support@jack.com                                  
+                                 </p>
+                             </div>                             
+                         </div> 
+                            
+                            
+                            <div class="col-md-4 text-center">
+                             <div class="contact-item wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                                 <span class="contact-icon"><i class="fa fa-phone"></i></span>
+                                 <p class="contact-detail">
+                                     +91 82-6401-9058 - Central Office<br>
+                                     +91 94-2835-8843 - Support                                
+                                 </p>
+                             </div>                             
+                         </div>                         
+                     </div>              
+                 </div>  
+           </div>        
+         </section>
+        <!-------------- Markup For Maps -------------->         
+        <section class="maps wow fadeInUp" id="location">   
+          
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.2620102077417!2d70.7672897148478!3d22.30592858532074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c9c15462f525%3A0xcc9251cd80fe72d1!2sRavi+Bhagyoday!5e0!3m2!1sen!2sin!4v1548248250928" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>        
+                  
+                  
+                  
+        </section> 
+                    
+                    
+        <!--------------- Footer Markup -------------->
+            
+                    
+                    
+                    
+                    
+        
+       <footer class="footer">
+           <div class="container">
+               <div class="row">
+                   <div class="col-sm-12 text-center">
+                       <div class="social-icon">
+                         <a href=""><i class="fa fa-facebook wow fadeInLeft" data-wow-duration=".3s" data-wow-delay=".3s" ></i></a>  
+                         <a href=""><i class="fa fa-twitter wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".6s"></i></a>  
+                         <a href=""><i class="fa fa-google-plus wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".9s"></i></a>  
+                         <a href=""><i class="fa fa-pinterest wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1.2s"></i></a>  
+                         <a href=""><i class="fa fa-rss wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s" ></i></a>  
+                         <a href=""><i class="fa fa-linkedin wow fadeInLeft" data-wow-duration="1.8s" data-wow-delay="1.8s" ></i></a>  
+                         <a href=""><i class="fa fa-vimeo-square wow fadeInLeft" data-wow-duration="2.1s" data-wow-delay="2.1s"></i></a>  
+                         <a href=""><i class="fa fa-youtube-square wow fadeInLeft" data-wow-duration="2.3s" data-wow-delay="2.3s" ></i></a>  
+                         <a href=""><i class="fa fa-dribbble wow fadeInLeft" data-wow-duration="2.6s" data-wow-delay="2.6s"></i></a>                          
+                       </div> <br>
+                       <div class="copyright">
+                           <p class="footerlogo">
+                               &copy; <img src="img/logo-01.png">
+                           </p>
+                           <div class="bordernow"></div>
+                       </div>
+                                            
+                                                                                      
+                    </div>
+                   
+                   
+                   
+               </div>
+           </div>
+       
+       </footer>
+              
+                              
+                                 
+                                       
+             
+             
+             
+             
+              
+               
+                 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+    
+    
+    <script src="js/jquery.counterup.min.js" type="text/javascript"></script>
+    
+    <script src="js/jquery.ripples-min.js" type="text/javascript"></script>
+    
+    <script src="js/typed.min.js" type="text/javascript"></script>
+    
+    <script src="js/main.js" type="text/javascript"></script>
+    
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+    
+    
+    <script src="js/wow.min.js" type="text/javascript"></script>
+    
+    
+   
+</body>
+</html>
